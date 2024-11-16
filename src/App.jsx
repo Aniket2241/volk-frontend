@@ -9,7 +9,7 @@ function App() {
     
     const videoTimeout = setTimeout(() => {
       setIsVideoCompleted(true); 
-    }, 14000); 
+    }, 12000); 
 
     
     return () => clearTimeout(videoTimeout);
